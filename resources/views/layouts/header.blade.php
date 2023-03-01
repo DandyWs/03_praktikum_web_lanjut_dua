@@ -12,7 +12,7 @@
               <ul>
                 <li><a href="/" class="active">Home</a></li>
                 <li><a href="/discount">Today Special</a></li>
-                <li><a href="/product">Menu</a></li>
+                <li><a href="/menu">Menu</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
             </nav>   

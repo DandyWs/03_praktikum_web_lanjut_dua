@@ -19,12 +19,12 @@ use App\Http\Controllers\ContactUsController;
 |
 */
 
-Route::get('/home', function () {
-    return view('welcome');
-});
-
 Route::get('/discount', function () {
     return view('diskon');
+});
+
+Route::get('/menu', function(){
+    return view('menu');
 });
 
 Route::get('/', HomeController::class);
