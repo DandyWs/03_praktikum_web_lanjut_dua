@@ -27,6 +27,10 @@ Route::get('/menu', function(){
     return view('menu');
 });
 
+Route::get('/contact-us', function(){
+    return view('contact-us');
+});
+
 Route::get('/', HomeController::class);
 
 Route::prefix('product')->group(function () {
