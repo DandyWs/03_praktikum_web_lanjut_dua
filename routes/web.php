@@ -19,11 +19,15 @@ use App\Http\Controllers\ContactUsController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('welcome');
 });
 
-Route::get('/home', HomeController::class);
+Route::get('/discount', function () {
+    return view('diskon');
+});
+
+Route::get('/', HomeController::class);
 
 Route::prefix('product')->group(function () {
     Route::get('/product1', [ProductController::class, 'product1']);
